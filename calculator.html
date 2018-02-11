@@ -6,6 +6,10 @@ function cube() {
   var num = document.getElementById("n1");
   num.value = Math.pow(num.value,3);
 }
+function fourthPower() {
+  var num = document.getElementById("n1");
+  num.value = Math.pow(num.value,4);
+}
 function sin() {
   var num = document.getElementById("n1");
   num.value = Math.sin(num.value);
@@ -18,7 +22,8 @@ function sin() {
   <input type="text" id="n1"><p>
 
   <button onclick="cube()"> x^3 </button>
+  <button onclick="fourthPower()"> x^4 </button>
   <button onclick="sin()"> sin(x) </button>
-  <br> Para calcular el seno de un n&#250mero, &#233ste debe estar en radianes.
+  <br> Para calcular el seno de un n&#250mero, &#233ste debe estar en radianes. 
 </body>
 </html>
